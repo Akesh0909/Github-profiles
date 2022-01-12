@@ -4,7 +4,7 @@ const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 
-getUser("Akesh-Yadav");
+getUser("Akesh0909");
 
 async function getUser(username) {
     const resp = await fetch(APIURL + username);
